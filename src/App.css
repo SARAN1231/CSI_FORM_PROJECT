@@ -1,0 +1,102 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto; /* Enable vertical scrollbar */
+  background-color: #f5f5f5; /* Background color for the app */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%; /* Set a width for the form */
+  max-width: 500px; /* Set a max width for the form */
+  padding: 20px;
+  background-color: #fff; /* Background color for the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the form */
+  border-radius: 10px; /* Rounded corners for the form */
+  margin: 20px 0; /* Margin for spacing */
+}
+
+.img {
+  width: 100%;
+  height: 20vh; /* Set height for the image container */
+  position: relative;
+  background-color: #f5f5f5; /* Background color for the image container */
+}
+
+h1 {
+  color: black;
+  margin-bottom: 20px; /* Add margin below the heading */
+}
+
+button {
+  background-color: coral;
+  color: white;
+  width: 175px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.submit {
+  padding-top: 20px;
+}
+
+.img_img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.img_heading {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vw;
+  color: #09124d;
+  white-space: nowrap; /* Ensure text is on a single line */
+  -webkit-text-stroke: 0.1vw #0f3679;
+  text-transform: uppercase;
+}
+
+.img_heading::before {
+  content: attr(data-heading);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #00aed0;
+  -webkit-text-stroke: 0.0vw #0f3679;
+  border-right: 2px solid #00aed0;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
