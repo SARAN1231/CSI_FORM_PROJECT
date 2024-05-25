@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/CSI_FORM_PROJECT/static/css/main.cdaaa1f8.css",
+    "main.js": "/github.io/CSI_FORM_PROJECT/static/js/main.e28387e5.js",
+    "static/js/453.4c9321ab.chunk.js": "/github.io/CSI_FORM_PROJECT/static/js/453.4c9321ab.chunk.js",
+    "index.html": "/github.io/CSI_FORM_PROJECT/index.html",
+    "main.cdaaa1f8.css.map": "/github.io/CSI_FORM_PROJECT/static/css/main.cdaaa1f8.css.map",
+    "main.e28387e5.js.map": "/github.io/CSI_FORM_PROJECT/static/js/main.e28387e5.js.map",
+    "453.4c9321ab.chunk.js.map": "/github.io/CSI_FORM_PROJECT/static/js/453.4c9321ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdaaa1f8.css",
+    "static/js/main.e28387e5.js"
+  ]
+}
