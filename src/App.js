@@ -33,18 +33,7 @@ function App() {
 
   return (
     <div className="app">
-      <div className="img">
-        <h2 className="img_heading" data-heading="WELCOME TO CSI PROJECT1">
-          Welcome To CSI PROJECT1
-        </h2>
-        <img
-          src="/img.jpg"
-          alt=""
-          height="100%"
-          width="100%"
-          className="img_img"
-        />
-      </div>
+    
       <form onSubmit={handleSubmit}>
         <h1>Registration Form</h1>
         <FormInput
@@ -139,7 +128,7 @@ function App() {
         <FormInput
           name="panNumber"
           type="text"
-          placeholder="Pan Number"
+          placeholder="ABCDE1234A"
           errorMessage="Please enter a valid PAN number"
           label="Pan Number"
           pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}"
